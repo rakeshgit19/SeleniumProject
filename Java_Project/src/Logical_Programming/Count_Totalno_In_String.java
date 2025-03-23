@@ -1,0 +1,26 @@
+package Logical_Programming;
+
+public class Count_Totalno_In_String 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+		String str = "my name is john";
+		char[] ch = str.toCharArray();
+		int count=0;
+		
+		for(int i=0;i<str.length();i++)
+		{
+			if(str.charAt(i)!=' ')
+			
+				count++;
+				//System.out.println(str);
+			
+		}
+		System.out.println(+count);
+
+	}
+
+}
